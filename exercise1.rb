@@ -1,3 +1,5 @@
-puts 2 != 3
-puts 3
-puts 2
+a = 20
+b = 65
+puts "The value of a is #{a}"
+puts "The value of a is #{b}"
+puts "The value of a plus b is #{a + b}."
