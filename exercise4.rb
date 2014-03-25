@@ -11,4 +11,4 @@ x.each do |num|
 	else
 		puts num
 	end
-	end
+end
