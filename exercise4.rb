@@ -1,6 +1,4 @@
-counter = 1
-
-while counter <= 100
-	puts "#{counter}"
-	counter += 1
-end
+x = 1..100
+x.each do |num|
+		puts num
+	end
