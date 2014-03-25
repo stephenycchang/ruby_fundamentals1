@@ -2,8 +2,8 @@ temp_f = true
 
 puts "What is the temperature currently in Farenheit?"
 temp_f = gets.chomp.to_i
-def temp_f
-  {C = (temp_f - 32) * 5/9}
+def temp_f(x)
+  (C = (temp_f - 32) * 5/9)
 end
 
-temp_f()
+temp_f(x)
